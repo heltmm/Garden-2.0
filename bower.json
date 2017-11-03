@@ -1,0 +1,17 @@
+{
+  "name": "garden2.0",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Mark Helt <heltmm@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
