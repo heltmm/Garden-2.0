@@ -9,12 +9,14 @@ import { AppComponent } from './app.component';
 import { HomePageComponent } from './home-page/home-page.component';
 
 import { routing } from './app.routing';
+import { ZipcodeComponent } from './zipcode/zipcode.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HomePageComponent,
+    ZipcodeComponent,
   ],
   imports: [
     BrowserModule,
