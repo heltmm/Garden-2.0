@@ -18,7 +18,7 @@ export class ZipcodeComponent implements OnInit {
   constructor(private router: Router, private zipcodeService: ZipcodeService) { }
 
   ngOnInit() {
-    this.zipcode = this.zipcodeService.getZipcode("1001")
+    this.zipcode = this.zipcodeService.getZipcode("01001")
     console.log(this.zipcode)
   }
 
