@@ -17,4 +17,8 @@ export class ZipcodeService {
   getZipcode(zipCode: string){
     return this.database.doc('zipcodes/' + zipCode).valueChanges();
   }
+  addNew(zipcode){
+    this.database.collection('zipcodes').add(zipcode)
+  }
+
 }
